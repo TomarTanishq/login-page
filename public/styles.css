@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #ffe1dd;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    padding: 40px 40px;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color:rgb(207, 207, 207);
+    border-radius: 6px;
+    
+}
+
+button{
+    background-color: rgb(95, 54, 207);
+    border-radius: 6px;
+    width: 10rem;
+    color: white;
+    align-self: center;
+    font: 250 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
